@@ -9,6 +9,7 @@ class Robot {
     };
 
     draw(ctx) {
-        this.animator.drawFrame(this.game.clockTick, ctx, 25, 25 );
+        this.animator.drawFrame(this.game.clockTick, ctx, 25, 25, 3);
+        
     };
 }
