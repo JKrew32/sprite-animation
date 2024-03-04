@@ -1,7 +1,7 @@
 class Robot {
     constructor(game) {
         this.game = game;
-        this.animator = new Animator(ASSET_MANAGER.getAsset("./robot.png"), 0, 0, 250, 250, 16, 0.2);
+        this.animator = new Animator(ASSET_MANAGER.getAsset("./robotsprite.png"), 0, 0, 70, 100, 8, 0.2);
     };
 
     update() {
